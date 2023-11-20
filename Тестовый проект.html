@@ -30,7 +30,7 @@
         <cite>- Эрик Ли</cite>
     </p>
     <p>
-    У многих крупных компаний, таких как <a href="https://yandex.eu/">Яндекс</a>, <a href="https://www.google.ru/">Google</a> рекомендации по оформлению
+    У многих крупных компаний, таких как <a target="_blank" href="https://yandex.eu/">Яндекс</a>, <a target="_blank" href="https://www.google.ru/">Google</a> рекомендации по оформлению
     кода опубликованы и доступны всем желающим. В фирмах поменьше могут быть
     внутренние инструкции, иногда единый стиль кода оговаривается устно (бывает и
     такое).
@@ -51,23 +51,14 @@
     сайт вы начинаете писать именно с этого языка. Давайте посмотрим на основные
     правила:
     </p>
-    <p>
-    ● Теги и их атрибуты пишутся строчными буквами.
-    </p>
-    <p>
-    ● Для значений атрибутов всегда используются двойные кавычки.
-    </p>
-    <p>        
-    ● Для отступов у вложенных элементов используется табуляция (рекомендуется
-    выставлять размер табуляции - 2).
-    </p>
-    <p>
-    ● Используйте в качестве основного селектора class
-    </p>
-    <p>
-    ● Закрывающий слеш у одиночных тегов (<img>, <br> и другие) не ставится. 
-    </p>
-    <p>
+  <ud>
+    <li>Теги и их атрибуты пишутся строчными буквами.</li>
+    <li>Для значений атрибутов всегда используются двойные кавычки.</li>
+    <li>Для отступов у вложенных элементов используется табуляция (рекомендуется выставлять размер табуляции - 2).</li>
+    <li>Используйте в качестве основного селектора class</li>
+    <li>Закрывающий слеш у одиночных тегов (<img>, <br> и другие) не ставится. </li>
+  </ud>
+<p>
     Это лишь выжимка основного из всех правил, обязательно ознакомьтесь со всеми
     правилами и применяйте их.
     </p>
@@ -79,40 +70,60 @@
     действительно поможет вам сохранить ваш код в идеальном виде - порядок свойств.
     Давайте посмотрим, как это выглядит
     </p>
-        Порядок написания CSS-свойств
-        Порядок Группа свойств Используемые свойства
-        <p>
-            1 Позиционирование position: relative;
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
-        </p>
-        <p>
-            2 Блочная модель display: flex;
-        align-items: center;
-        margin: 10px;
-        padding: 10px 20px;
-        border: 1px solid red;
-        width: 200px;
-        height: 100px;
-        box-sizing: border-box;
-        </p>
-        <p>
-            3 Типографика font-family: Arial;
-        font-size: 25px;
-        font-style: italic;
-        text-decoration: none;
-        color: red;
-        </p>
-<p>
-    4 Оформление background: red;
-    opacity: 1;
-</p>
- <p>
-    5 Анимации transform: translateX(5px);
-    animation: shake 0.3s infinite;
- </p>
+    <table border="1" cellspacing="0" cellpadding="5"  > 
+        <caption>Порядок написания CSS-свойств</caption>
+        <thead>
+        <tr>
+         <th>Порядок</th>
+         <th>Группа свойств</th>
+         <th>Используемые свойства</th>
+        </tr>
+</thead>
+<tbody>
+    <tr>
+        <td>1</td>
+        <td>Позиционирование</td>
+        <td>position: relative;<br>
+            left: 0;<br>
+            right: 0;<br>
+            top: 0;<br>
+            bottom: 0;<br></td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Блочная модель</td>
+        <td>display: flex;<br>
+            align-items: center;<br>
+            margin: 10px;<br>
+            padding: 10px 20px;<br>
+            border: 1px solid red;<br>
+            width: 200px;<br>
+            height: 100px;<br>
+            box-sizing: border-box;<br></td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Типографика</td>
+        <td>font-family: Arial;<br>
+            font-size: 25px;<br>
+            font-style: italic;<br>
+            text-decoration: none;<br>
+            color: red;<br></td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Оформление</td>
+        <td>background:red;<br>
+            opacity: 1;<br></td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>Анимации</td>
+        <td>transform: translateX(5px);<br>
+            animation: shake 0.3s infinite;<br></td>
+    </tr>
+</tbody>
+</table>
     <h2>
         JS
     </h2>
